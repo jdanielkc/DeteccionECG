@@ -47,6 +47,9 @@ Se generaron **6 bases de datos** en total (3 de entrenamiento y 3 de prueba), g
 ### 3. Arquitecturas Implementadas
 
 #### Red Convolucional (CNN)
+
+<img width="auto" height="auto" alt="Imagen32" src="https://github.com/user-attachments/assets/f9ba8771-868a-4385-b2ec-933560a8d530" />
+
 - 2 capas convolucionales (filtros 3×3, activación ReLU) con max-pooling
 - Capa de aplanamiento
 - Capa densa con ReLU y dropout
@@ -54,6 +57,10 @@ Se generaron **6 bases de datos** en total (3 de entrenamiento y 3 de prueba), g
 - Entrada: espectrogramas de dimensión (51, 241, 2)
 
 #### Red Recurrente (GRU)
+
+<img width="auto" height="auto" alt="Imagen33" src="https://github.com/user-attachments/assets/1c12f5ff-c4d7-4b00-8a28-a546350f26ae" />
+
+
 - 1 capa convolucional 1D (ReLU) + batch normalization
 - 2 capas GRU con dropout
 - Capa densa con regularización L1/L2
